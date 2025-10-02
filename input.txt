@@ -1,0 +1,22 @@
+carregar 8
+mr MR01 2009 25.4 5 3
+mr MR02 2009 25.4 5 3
+car CR01 2009 25.4 5 3
+car CR02 2009 25.4 5 3
+mr MR03 2009 25.4 5 3
+mr MR04 2009 25.4 5 3
+rod RD01 2009 25.4 5 3
+car CR03 2011 23.7 10 6
+status MR01
+status CR01
+demanda 50
+rodar 2
+painel
+pausar MR01
+status MR01
+rodar 1
+painel
+pausar MR01
+retomar MR01
+status MR01
+encerrar
